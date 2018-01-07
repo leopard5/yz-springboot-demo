@@ -1,8 +1,12 @@
+
 server:
   port: 8099
 spring:
+  application:
+    name: yz-springboot-demo
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql://localhost:3306/marketing_center?useUnicode=true&characterEncoding=utf8
     username: root
     password: root1234
+
